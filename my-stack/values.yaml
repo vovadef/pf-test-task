@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: hello-world
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
 envs:
   DB_HOST: "postgresql"
