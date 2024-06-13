@@ -17,7 +17,9 @@ To install the chart with the release name `my-stack`:
 $ kubectl create ns <deployment-namespace>
 
 ## Install the my-stack helm chart
-$ helm install --name my-stack my-stack
+$ cd my-stack
+$ helm dependency build
+$ cd ../ && helm install --name my-stack my-stack
 ```
 
 > **Tip**: List all releases using `helm list`

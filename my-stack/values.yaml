@@ -51,7 +51,7 @@ service:
   port: 80
 
 secrets:
-  enabled: true
+  enabled: false
   backendType: systemManager
   path: /app
 
