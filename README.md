@@ -46,11 +46,11 @@ The following table lists the configurable parameters of the my-stack chart and 
 
 | Parameter                                       | Description                                                                                                                              | Default                                   |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| `DB_HOST`                                       | Postgres DB host                                                                                                                         | `postgresql`                              |
+| `DB_HOST`                                       | Postgres DB host                                                                                                                         | `my-stack-postgresql`                              |
 | `DB_USER`                                       | Postgres username                                                                                                                        | `postgres`                                |
 | `DB_NAME`                                       | Database name                                                                                                                            | `test`                                    |
 | `DB_PORT`                                       | Database port                                                                                                                            | `5432`                                    |
-| `REDIS_HOST`                                    | Redis host                                                                                                                               | `redis`                                   |
+| `REDIS_HOST`                                    | Redis host                                                                                                                               | `my-stack-redis`                                   |
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
 
