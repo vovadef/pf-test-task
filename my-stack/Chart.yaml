@@ -7,8 +7,8 @@ appVersion: "1.16.0"
 
 dependencies:
   - name: redis
-    version: 19.5.2
-    repository: https://charts.bitnami.com/bitnami
+    version: 22.4.10
+    repository: https://mya.sh
   - name: postgresql
     version: 15.5.5
     repository: https://charts.bitnami.com/bitnami

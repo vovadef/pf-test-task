@@ -19,7 +19,7 @@ $ kubectl create ns <deployment-namespace>
 ## Install the my-stack helm chart
 $ cd my-stack
 $ helm dependency build
-$ cd ../ && helm install --name my-stack my-stack
+$ cd ../ &&  helm install my-stack my-stack --set persistence.existingClaim=postgresql-pv --set volumePermissions.enabled=true
 ```
 
 > **Tip**: List all releases using `helm list`
